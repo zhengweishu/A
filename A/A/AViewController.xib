@@ -21,13 +21,18 @@
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9G-8L-pMp">
                     <rect key="frame" x="167" y="318.5" width="41" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Ago-Qc-dC6"/>
+                        <constraint firstAttribute="width" constant="41" id="Drm-Gq-fy4"/>
+                    </constraints>
                     <state key="normal" title="gotoB"/>
                     <connections>
                         <action selector="gotoB:" destination="-1" eventType="touchUpInside" id="qcO-6d-y88"/>
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" red="0.88235294119999996" green="0.64313725489999995" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="j9G-8L-pMp" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="4Ab-wZ-XZP"/>
                 <constraint firstItem="j9G-8L-pMp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qoB-Xl-NyM"/>
