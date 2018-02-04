@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "A/A/**/*.{h,m}"
+  s.source_files  = "A/A/**/*.{h,m,xib}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -134,7 +134,7 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "BLNetworking"
-  # s.dependency "BLAPIManagers"
+  s.dependency "Masonry"
   s.dependency "B_Category"
 
 end

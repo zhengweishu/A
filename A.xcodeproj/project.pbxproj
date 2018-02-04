@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		432D89DBF292C38E9B41209D /* libPods-A.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2F772AB41CDEE3FF36E352 /* libPods-A.a */; };
+		93837AD32026F80300F24F08 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93837AD22026F80300F24F08 /* AViewController.xib */; };
 		9392A3F1202302330012FF48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392A3F0202302330012FF48 /* AppDelegate.m */; };
 		9392A3F4202302330012FF48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392A3F3202302330012FF48 /* ViewController.m */; };
 		9392A3F7202302330012FF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9392A3F5202302330012FF48 /* Main.storyboard */; };
@@ -15,12 +16,12 @@
 		9392A3FC202302330012FF48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9392A3FA202302330012FF48 /* LaunchScreen.storyboard */; };
 		9392A3FF202302330012FF48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392A3FE202302330012FF48 /* main.m */; };
 		9392A42B202304590012FF48 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392A428202304590012FF48 /* AViewController.m */; };
-		9392A42C202304590012FF48 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9392A429202304590012FF48 /* AViewController.xib */; };
 		9392A434202309940012FF48 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392A433202309940012FF48 /* Target_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F2F772AB41CDEE3FF36E352 /* libPods-A.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-A.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93837AD22026F80300F24F08 /* AViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
 		9392A3EC202302330012FF48 /* A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9392A3EF202302330012FF48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9392A3F0202302330012FF48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		9392A3FD202302330012FF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9392A3FE202302330012FF48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9392A428202304590012FF48 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
-		9392A429202304590012FF48 /* AViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
 		9392A42A202304590012FF48 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		9392A432202309940012FF48 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
 		9392A433202309940012FF48 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 				9392A431202309730012FF48 /* Targets */,
 				9392A42A202304590012FF48 /* AViewController.h */,
 				9392A428202304590012FF48 /* AViewController.m */,
-				9392A429202304590012FF48 /* AViewController.xib */,
+				93837AD22026F80300F24F08 /* AViewController.xib */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9392A42C202304590012FF48 /* AViewController.xib in Resources */,
+				93837AD32026F80300F24F08 /* AViewController.xib in Resources */,
 				9392A3FC202302330012FF48 /* LaunchScreen.storyboard in Resources */,
 				9392A3F9202302330012FF48 /* Assets.xcassets in Resources */,
 				9392A3F7202302330012FF48 /* Main.storyboard in Resources */,
