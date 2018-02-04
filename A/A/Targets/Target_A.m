@@ -13,7 +13,7 @@
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params
 {
-    AViewController *viewController = [[AViewController alloc] init];
+    AViewController *viewController = [[NSBundle mainBundle] loadNibNamed:@"AViewController" owner:nil options:nil].lastObject;
     return viewController;
 }
 
